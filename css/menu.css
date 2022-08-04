@@ -21,6 +21,16 @@ h5{
 	clear: both;
 }
 
+.linkBtn:link,
+.linkBtn:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.linkBtn:hover{
+	background: #C9EBE9;
+}
+
 /* 個々 */
 
 .two p{
@@ -54,6 +64,10 @@ h5{
 .two a:visited{
 	color: #000;
 	text-decoration: none;
+}
+
+.two:hover{
+	background: #C9EBE9;
 }
 
 .food h5{
@@ -111,11 +125,19 @@ h5{
 	text-decoration: none;
 }
 
-.food .etc a:link,
+/* .food:hover{
+	background: #C9EBE9;
+} */
+
+/* .food .etc a:link,
 .food .etc a:visited{
 	color: #000;
 	text-decoration: none;
 }
+
+.food .etc a:hover{
+	background: #C9EBE9;
+} */
 
 .coffee{
 	width: 1000px;
@@ -170,3 +192,7 @@ h5{
 	color: #000;
 	text-decoration: none;
 }
+
+/* .coffee:hover{
+	background: #C9EBE9;
+} */
