@@ -7,7 +7,7 @@
 }
 
 h4{
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 400;
 	text-align: center;
 	margin: 50px auto;
@@ -19,6 +19,10 @@ h5{
 	font-weight: 300;
 	text-align: center;
 	clear: both;
+}
+
+.linkBtn{
+	font-size: 2.5em;
 }
 
 .linkBtn:link,
@@ -42,7 +46,7 @@ h5{
 }
 
 .two .linkBtn{
-	font-size: 3rem;
+	font-size: 2.5rem;
 	display: block;
 	background: #C7F0ED;
 	width: 300px;
@@ -66,9 +70,19 @@ h5{
 	text-decoration: none;
 }
 
-.two:hover{
+.two a:hover{
 	background: #C9EBE9;
 }
+
+/* #foodTxt a:link,
+#foodTxt a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+#foodTxt a:hover{
+	background: #C9EBE9;
+} */
 
 .food h5{
 	margin: 100px auto;
@@ -187,12 +201,18 @@ h5{
 	margin: 0 auto;
 }
 
-.coffee a:link,
-.coffee a:visited{
+.coffee .linkBtn:link,
+.coffee .linkBtn:visited{
 	color: #000;
 	text-decoration: none;
 }
 
-/* .coffee:hover{
+.coffee .linkBtn:hover{
 	background: #C9EBE9;
-} */
+}
+
+.coffee .linkBtn a:link,
+.coffee .linkBtn a:visited{
+	color: #000;
+	text-decoration: none;
+}
