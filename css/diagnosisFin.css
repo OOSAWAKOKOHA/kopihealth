@@ -60,12 +60,19 @@ h3{
 }
 
 .food{
-	border: solid 1px tomato;
+/* 	border: solid 1px tomato; */
 	width: 700px;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
 	text-align: center;
+	font-size: 1.4rem;
+	line-height: 50px;
+}
+
+.food .bottomT{
+	font-size: 1.6rem;
+	font-weight: 500;
 }
 
 /* .food .foodBox{

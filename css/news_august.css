@@ -1,0 +1,45 @@
+.top{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.background{
+	color: #2A2424;
+	display: flex;
+	/* 	左右中央 */
+	justify-content: center;
+	/* 	上下中央 */
+	align-items: center;
+	
+	background: #C7F0ED;
+	width: 630px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 2rem;
+	line-height: 30px;
+	text-align: center;
+}
+
+.august{
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 1.6em;
+	line-height: 40px;
+}
+
+.augustImg{
+	border: solid 2px #C7F0ED;
+	width: 440px;
+	height: 360px;
+}
