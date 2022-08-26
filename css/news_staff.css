@@ -4,6 +4,11 @@
 	margin: 0 auto;
 }
 
+.staff{
+	width: 1000px;
+	margin: 0 auto;
+}
+
 .background{
 	color: #2A2424;
 	display: flex;
@@ -31,20 +36,21 @@
 	font-weight: 500;
 }
 
-.august{
-	width: 950px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.staffTxt{
+/* 	border: solid 1px tomato; */
+	width: 530px;
 	margin: 50px auto;
-	font-size: 1.6em;
-	line-height: 50px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
 }
 
-.augustImg{
-	border: solid 2px #C7F0ED;
-	width: 440px;
-	height: 360px;
+.staffTxt li{
+/* 	border: solid 1px skyblue; */
+	font-size: 1.6rem;
+	text-align: left;
+	line-height: 30px;
+	padding: 10px 0;
 }
 
 .linkBtn{
