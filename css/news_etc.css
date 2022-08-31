@@ -77,3 +77,40 @@ h3{
 .news .newsTtl{
 	margin: 30px 0;
 }
+
+.back{
+/* 	border: solid 1px tomato; */
+	width: 1000px;
+	height: 200px;
+	margin: 30px auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.back p{
+/* 	border: solid 1px black; */
+	width: 300px;
+	height: 90px;
+}
+
+.back .linkBtn{
+	font-size: 2rem;
+	display: block;
+	background: #C7F0ED;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border-radius: 30px;
+}
+
+.back a:link,
+.back a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.back a:hover{
+	background: #C9EBE9;
+}

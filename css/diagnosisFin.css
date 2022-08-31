@@ -35,17 +35,20 @@ h3{
 }
 
 .coffee{
-/* 	border: solid 1px tomato; */
-	width: 700px;
+	border: solid 1px #707070;
+	width: 750px;
+	height: 250px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 30px;
 }
 
 .coffee .Txt{
 /* 	border: solid 1px tomato; */
 	text-align: left;
-	padding-top: 60px;
 }
 
 .coffee .Txt .topT{
@@ -61,7 +64,7 @@ h3{
 
 .food{
 /* 	border: solid 1px tomato; */
-	width: 700px;
+	width: 800px;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
@@ -70,29 +73,14 @@ h3{
 	line-height: 50px;
 }
 
-.food .bottomT{
-	font-size: 1.6rem;
-	font-weight: 500;
+.food li{
+	border: solid 1px #707070;
+	width: 350px;
+	height: 300px;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	text-align: center;
 }
-
-/* .food .foodBox{
-/* 	border: solid 1px tomato; */
-
-/* } */
-
-/* .food .topT{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 1.6rem;
-	font-weight: 500;
-}
-
-.food .bottomT{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 1.4rem;
-	font-weight: 400;
-}  */
 
 .two{
 /* 	border: solid 1px tomato; */
