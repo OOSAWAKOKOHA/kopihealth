@@ -28,10 +28,16 @@ h2{
 }
 
 h3{
+	width: 1000px;
 	font-size: 2rem;
 	font-weight: 400;
 	text-align: center;
 	padding: 70px;
+	margin: 0 auto;
+}
+
+.coffee img,.coffee .Txt{
+	padding: 0 40px;
 }
 
 .coffee li{
@@ -55,13 +61,15 @@ h3{
 .coffee .Txt .topT{
 	font-size: 1.6em;
 	font-weight: 500;
-	padding-bottom: 25px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .coffee .Txt .bottomT{
 	font-size: 1.4em;
 	font-weight: 400;
-	padding-bottom: 25px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .coffee .Txt .buyBtn{
@@ -75,4 +83,12 @@ h3{
 	border-radius: 20px;
 }
 
-} */
+.Txt a:link,
+.Txt a:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.Txt .buyBtn:hover{
+	background-color: #C9EBE9;
+}

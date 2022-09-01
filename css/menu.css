@@ -132,8 +132,8 @@ h5{
 
 .foodType li{
 	border: solid 1px #707070;
-	width: 316px;
-	height: 333px;
+	width: 276px;
+/* 	height: 313px; */
 	text-align: left;
 	line-height: 30px;
 	font-size: 1.6em;
@@ -145,7 +145,7 @@ h5{
 	background: #FFFFFF;
 	line-height: 40px;
 	border-radius: 10px;
-	text-indent: 23px;
+	padding: 0 20px 10px;
 }
 
 .foodType li:nth-child(2n){
@@ -169,10 +169,12 @@ h5{
 	margin-right: 25px;
 }
 
+
 .foodType .reco,.foodType .etc{
 	background-color: #C7F0ED;
 	margin: 5px;
-	border-radius: 30px;
+	padding: 0 10px;
+	border-radius: 15px;
 	display: inline-block;
 }
 
@@ -184,12 +186,12 @@ a:visited{
 
 .reco:hover{
 	background-color: #C9EBE9;
-	border-radius: 30px;
+	border-radius: 15px;
 }
 
 .etc:hover{
 	background-color: #C9EBE9;
-	border-radius: 30px;
+	border-radius: 15px;
 }
 
 
