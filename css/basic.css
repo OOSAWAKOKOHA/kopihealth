@@ -51,7 +51,7 @@ ul{
 .hedder{
 /* 	border: solid 1px tomato; */
 	width: 1000px;
-	height: 193px;
+	height: 201px;
 	margin: 66px auto 80px;
 }
 
@@ -65,8 +65,11 @@ ul{
 /* 	border: solid 1px tomato; */
 	width: 400px;
 	border-bottom: solid 0.3em #707070;
-	float: right;
 	margin: 60px auto 10px;
+	display: right;
+}
+.minNavigation ul{
+	display: flex;
 }
 
 .minNavigation li{
@@ -74,14 +77,13 @@ ul{
 	font-size: 2em;
 	height: 35px;
 	width: 200px;
-	float: left;
+	
 	text-align: center;
 	line-height: 35px;
 	margin-bottom: 10px;
 }
 
 .minNavigation li a{
-	display: block;
 	padding: 0.2em 0;
 }
 
