@@ -62,14 +62,16 @@ ul{
 }
 
 .minNavigation{
-/* 	border: solid 1px tomato; */
-	width: 400px;
-	border-bottom: solid 0.3em #707070;
-	margin: 60px auto 10px;
-	display: right;
+	display: flex;
 }
 .minNavigation ul{
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	border-bottom: solid 0.3em #707070;
+	margin: 0 auto;
+	padding: 60px 0 10px;
 }
 
 .minNavigation li{
@@ -77,15 +79,14 @@ ul{
 	font-size: 2em;
 	height: 35px;
 	width: 200px;
-	
 	text-align: center;
 	line-height: 35px;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 }
 
-.minNavigation li a{
+/* .minNavigation li a{
 	padding: 0.2em 0;
-}
+} */
 
 .minNavigation li a:link,
 .minNavigation li a:visited{
